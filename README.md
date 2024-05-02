@@ -55,3 +55,6 @@ http://localhost:8765/currency-converter-new/from/USD/to/INR/quantity/1000
 
 ----------Zipkin--------------
 http://localhost:9411/zipkin
+
+---------------Build Docker image with maven build------------
+spring-boot:build-image -DskipTests
