@@ -15,6 +15,9 @@ git push -u origin main
 Feign makes it easy to call other microservices
 It provides integration with Ribbon which is client site load balancing framework
 
+In older version Ribbon balancer was used, in recent version spring-cloud-loadbalancer is used
+In older version Zuul API Gateway was used, in recent version spring-cloud-gateway is used
+
 --------
 currency-exchange API URL:-
 http://localhost:8000/currency-exchange/from/EUR/to/INR
